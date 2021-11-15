@@ -39,7 +39,7 @@ public class TestBase {
                 System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver/mac/chromedriver");
             } else {
                 System.setProperty("webdriver.chrome.driver",
-                        "src/test/resources/chromedriver/windows/chromedriver.exe");
+                        "src/test/resources/chromedriver/Linux/chromedriver");
             }
             driver = new ChromeDriver();
         }
